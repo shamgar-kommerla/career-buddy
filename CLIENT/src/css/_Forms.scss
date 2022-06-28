@@ -1,0 +1,72 @@
+.publish-article-section{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-bottom: 20vh;
+    h2{
+        margin: 2rem;
+        font-size:3vw;
+    }
+    .form-container{
+        width: 60%;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 8px;
+        form {
+            margin: auto;
+            width: 90%;
+            min-height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-bottom: 1.5rem;
+            background-color: #fff;
+            padding: 1rem;
+            .form-grp{
+                width: 100%;
+                margin-bottom: 1rem;
+                input{
+                    background-color: #fff;
+                    width: 100%;
+                    border: none;
+                    padding:0.7rem 0;
+                    border-bottom: 1px solid rgba(#3f0071, 0.5);
+                }
+                input:focus{
+                    border: none;
+                    outline: none;
+                    border-bottom: 1.5px solid #3f0071;
+                }
+                p{
+                    font-size: 0.8rem;
+                    color: transparent;
+                    color: #222;
+                }
+                textarea{
+                    background-color: #fff;
+                    width: 100%;
+                    border: none;
+                    padding:0.7rem 0;
+                    border-bottom: 1px solid rgba(#3f0071, 0.5);
+                }
+                textarea:focus{
+                    border: none;
+                    outline: none;
+                    border-bottom: 1.5px solid #3f0071;
+                }
+            }
+            .submit-btn{
+                cursor: pointer;
+                width: 40%;
+                border:none;
+                background-color: #3f007a;
+                padding: 0.3rem 1rem;
+                color: #fff;
+                font-size: 16px;
+                margin-bottom: 1rem;
+                border-radius: 8px;
+            }
+        }
+    }
+
+}
+

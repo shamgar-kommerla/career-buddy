@@ -1,0 +1,181 @@
+.student-content-wrapper{
+    padding-bottom: 15vh;
+    width: 100%;
+    .student-welcome-message{
+        background-color: #3f0071;
+        color: #f1f1f1;
+        width: 100%;
+        min-height: 20vh;
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .student-message-content{
+            width: 70%;
+            display: flex;
+            font-size: 1.2rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            .student-name{
+                font-weight: 500;
+            }
+        }
+    }
+
+    .dashboard-published-articles-section{
+        width: 100%;
+        .dashboard-published-articles-container{
+            width: 70%;
+            margin:auto;
+            .heading{
+                font-weight: 600;
+                margin-bottom: 0.5rem;
+            }
+            .my-published-articles{
+                margin-bottom: 1.5rem;
+                .no-articles-published{
+                    margin-bottom: 1.5rem;
+                    margin-left: 1rem;
+                    p{
+                        font-weight: 600;
+                        color: rgba(#111,0.6);
+                    }
+                }
+                .card{
+                    background-color: #fff !important;
+                    width: 100%;
+                    padding: 1rem 2rem;
+                    margin-bottom: 1rem;
+                    .job-details{
+                        display: flex;
+                        justify-content: space-between;
+                        .company-name, .job-description{
+                            font-weight: 500;
+                        }
+                    }
+                    .publish-status{
+                        margin-bottom: 0.5rem;
+                        p{
+                            font-size: 0.7rem;
+                            font-weight: 500;
+                            color: #666;
+                            .status{
+                                color: green;
+                            }
+                        }
+                    }
+                    .suggestions{
+                        margin-bottom: 0.5rem;
+                        p{
+                            font-size: 0.8rem;
+                            .message{
+                                color: orange;
+                            }
+                        }
+                    }
+
+                    button{
+                        background-color: #3c096c;
+                        outline: none;
+                        border: none;
+                        padding: 0.4rem 1.5rem;
+                        border-radius: 5px;
+                        color: #f3f3f3;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .dashboard-yet-to-update-section{
+        width: 100%;
+        .dashboard-yet-to-update-container{
+            width: 70%;
+            margin:auto;
+            .heading{
+                font-weight: 600;
+                margin-bottom: 0.5rem;
+            }
+            .my-update-suggestions{
+                width: 100%;
+                .card{
+                    background-color: #fff !important;
+                    width: 100%;
+                    padding: 1rem 2rem;
+                    .job-details{
+                        display: flex;
+                        justify-content: space-between;
+                        .company-name, .job-description{
+                            font-weight: 500;
+                        }
+                    }
+                    .publish-status{
+                        margin-bottom: 0.5rem;
+                        p{
+                            font-size: 0.7rem;
+                            font-weight: 500;
+                            color: #666;
+                            .status{
+                                color: red;
+                            }
+                        }
+                    }
+                    .suggestions{
+                        margin-bottom: 0.5rem;
+                        p{
+                            font-size: 0.8rem;
+                            .message{
+                                color: orange;
+                            }
+                        }
+                    }
+
+                    button{
+                        background-color: #3c096c;
+                        outline: none;
+                        border: none;
+                        padding: 0.4rem 1.5rem;
+                        border-radius: 5px;
+                        color: #f3f3f3;
+                        cursor: pointer;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+.student-dashboard{
+    padding-bottom: 20vh;
+    .normal-details{
+        min-height: 40vh;
+        width: 70%;
+        margin: auto;
+        // display: flex;
+        .n-d-cont{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            .no-of-articles{
+                background-color: #fff;
+                padding: 2rem;
+                .no-so-arts{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                .no-so-studs{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+
+            }
+        }
+
+    }
+}

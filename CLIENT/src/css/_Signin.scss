@@ -1,0 +1,87 @@
+.signin-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../assets/img/homeBg.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    .menu-section{
+        position: absolute;
+        top: 0;
+        .menu-container{
+            padding-bottom: 0.5rem;
+            border-bottom:1px solid rgba(#fff, 0.5);
+            .logo-section{
+                color: #f3f3f3;
+            }
+            ul{
+                li{
+                    // background-color: #fff;
+                    .nav-link{
+                        color: #f3f3f3 !important;
+                    }
+                    .nav-link:hover{
+                        color: #7b2cbf !important;
+                    }
+                }
+            }
+        }
+    }
+    .signin-container{
+        background-color: #fff ;
+        padding:1rem 1.5rem;
+        // min-height: 50vh;
+        min-width: 40vw;
+        border-radius: 8px;
+        .signin-form-container{
+            width: 100%;
+                form{
+                    width: 100%;
+                    // margin:auto;
+                    display: flex;
+                    flex-direction: column;
+                    .form-grp{
+                        width: 100%;
+                        margin-bottom: 1rem;
+                        input{
+                            width: 100%;
+                            padding:0.7rem 0;
+                            border: none;
+                            border-bottom: 1px solid rgba(#000000, 0.5);
+                        }
+                        input:focus{
+                            
+                            border: none;
+                            outline: none;
+                            border-bottom: 1.5px solid #3f0071;
+                        }
+                        input::placeholder{
+                            margin-left: 1rem;
+                        }
+                        p{
+                            font-size: 0.8rem;
+                            color: transparent;
+                            color: #f1f1f1;
+                        }
+                    }
+                    .submit-btn{
+                        cursor: pointer;
+                        width: 40%;
+                        border:none;
+                        background-color: #3f007a;
+                        padding: 0.3rem 1rem;
+                        color: #fff;
+                        font-size: 16px;
+                        margin-bottom: 1rem;
+                        border-radius: 8px;
+                    }
+                }
+            }
+    }
+}

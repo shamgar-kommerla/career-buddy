@@ -1,0 +1,35 @@
+.verify-articles-section{
+    center{
+        h2{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+    .article-cards{
+        width: 75%;
+        margin: auto;
+        
+        .article-card{
+            background-color: #fff;
+            padding: 2rem;
+            outline: none;
+            border:none;
+            margin-bottom: 1.5rem;
+            .article-heading{
+                p{
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+                margin-bottom: 1rem;
+            }
+            .article-publisher-details{
+                .link{
+                    background-color: #307;
+                    color:#fff;
+                    padding: 0.4rem 1rem;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

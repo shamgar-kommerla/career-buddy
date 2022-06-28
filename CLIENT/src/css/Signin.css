@@ -1,0 +1,119 @@
+.signin-section {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.9))), url("../assets/img/homeBg.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("../assets/img/homeBg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.signin-section .menu-section {
+  position: absolute;
+  top: 0;
+}
+
+.signin-section .menu-section .menu-container {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.signin-section .menu-section .menu-container .logo-section {
+  color: #f3f3f3;
+}
+
+.signin-section .menu-section .menu-container ul li .nav-link {
+  color: #f3f3f3 !important;
+}
+
+.signin-section .menu-section .menu-container ul li .nav-link:hover {
+  color: #7b2cbf !important;
+}
+
+.signin-section .signin-container {
+  background-color: #fff;
+  padding: 2rem;
+  min-width: 40vw;
+}
+
+.signin-section .signin-container .signin-form-container {
+  width: 100%;
+}
+
+.signin-section .signin-container .signin-form-container form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signin-section .signin-container .signin-form-container form .form-grp {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.signin-section .signin-container .signin-form-container form .form-grp input {
+  width: 100%;
+  padding: 0.7rem 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.signin-section .signin-container .signin-form-container form .form-grp input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid #3f0071;
+}
+
+.signin-section .signin-container .signin-form-container form .form-grp input::-webkit-input-placeholder {
+  margin-left: 1rem;
+}
+
+.signin-section .signin-container .signin-form-container form .form-grp input:-ms-input-placeholder {
+  margin-left: 1rem;
+}
+
+.signin-section .signin-container .signin-form-container form .form-grp input::-ms-input-placeholder {
+  margin-left: 1rem;
+}
+
+.signin-section .signin-container .signin-form-container form .form-grp input::placeholder {
+  margin-left: 1rem;
+}
+
+.signin-section .signin-container .signin-form-container form .form-grp p {
+  font-size: 0.8rem;
+  color: transparent;
+  color: #f1f1f1;
+}
+
+.signin-section .signin-container .signin-form-container form .submit-btn {
+  cursor: pointer;
+  width: 40%;
+  border: none;
+  background-color: #3f007a;
+  padding: 0.3rem 1rem;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+/*# sourceMappingURL=Signin.css.map */
